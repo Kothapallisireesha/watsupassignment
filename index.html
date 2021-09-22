@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="icon" href="img/whatsapp.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class=" col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10" style="background-color: #128c7e;height: ;">
+                <span class="text-*-left"
+                    style="color: white;padding-top: 10px;font-size: 25px;margin-left: 10px;">WhatsApp</span>
+
+                <span class="float-right row">
+                    <span class="col" style="color: white; margin-top: 10px;">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <div class="dropdown col">
+                        <button type="button" class="btn btn-sm " data-toggle="dropdown" aria-expanded="false"
+                            style="padding-top: 12px;color: white; background-color: transparent">
+                            <h4 class="d-flex align-items-center">
+                                <i class="fa fa-ellipsis-v text-one"></i>
+                            </h4>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end"
+                            style="position: absolute; transform: translate3d(30px, 44px, 0px); top: 0px; left: 0px; will-change: transform;">
+                           <a class="dropdown-item" id="menu-profile" href="profile.html">Profile</a>
+                            <a class="dropdown-item" href="#">
+                                <p>New group</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Whatsapp Web</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>New chat</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>LinkedDevices</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Payments</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>Settings</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <p>LogOut</p>
+                            </a>
+                        </div>
+                    </div><br>
+                </span>
+
+            </div>
+
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------>
+        <div class="row justify-content-center">
+
+            <div class=" col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10"
+                style="background-color: #128c7e;height: 40px;">
+                <ul class="nav nav-pills" style="text-align: center;">
+
+                    <li class="nav-item" style="width: 25%;">
+                        <a class=" active" data-toggle="pill" href="#chats" style="color: white;">Chats</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class=" " data-toggle="pill" href="#status" style="color: white;">Status</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="" data-toggle="pill" href="#calls" style="color: white;">Calls</a>
+                    </li>
+                </ul>
+              <br />
+              
+                <div class="tab-content">
+                    <div class="tab-pane container-full fade text-center" id="camera">
+                        <video id="video" class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10" autoplay></video>
+                        <script src="js/script.js"></script>
+                    </div>
+                    <div class="tab-pane container-full active" id="chats">
+                        <div class="row">
+                            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgray;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/b.jpeg" alt="pro-pic"
+                                    height="50px" width="50px" style="margin-top:15px;">
+                                <a class="text-bold" href="chat.html" style="margin-left: 70px;margin-top: 10px; font-style: italic; color: black;" ><h6> MySelf </h6>
+                                   <span>
+                                    
+                                    <span class="float-right" style="font-size: 10px;">8:00pm
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
+                                        <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/>
+                                      </svg>
+                                </span>
+                            </span>
+                        </a>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span class="span" style="font-size: 10px;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                              
+                                        </span>
+                                    </span> Hey siri
+                                </p>
+                            </div>
+                            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/d.jpeg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h6 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">Divya P N
+                                    <span class="float-right" style="font-size: 10px;">1:00pm</span>
+                                </h6>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span class="span" style="color:lightskyblue;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                        </span>
+                                    </span> Hello di
+
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/c.jpeg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">Impana
+                                    <span class="float-right" style="font-size: 10px;">12:00am</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span class="span" style="color:lightskyblue;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                        </span>
+                                    </span> 
+                                    How you? 
+
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/f.jpeg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">powerpuffgirls
+                                    <span class="float-right  " style="font-size: 10px;">11:45am <span class="badge pull-right rounded-circle" style="background: #48dd48; font-size: 15px; margin-bottom: 5px;">2</span> </span>
+                                    
+                                
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                       
+                                    </span> 
+                                    Devika :Hi guys
+                                </p>
+
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/e.jpeg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">Haritha akka
+                                    <span class="float-right" style="font-size: 10px;">Yesterday</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                        </span>
+                                    </span> 
+                                    Can you pleace call me?
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/g.jpeg" alt="pro-pic"
+                                    height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">Atte
+                                    <span class="float-right" style="font-size: 10px;">Yesterday<span class="badge pull-right rounded-circle" style="background: #48dd48; font-size: 15px; margin-bottom: 5px;">2</span> </span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span class="span" style="color:lightskyblue;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                        </span>
+                                    </span>  text me!</p>
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/f.jpeg" alt="pro-pic" height="40px"
+                                    width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px; font-style: italic;">Project team
+                                    <span class="float-right" style="font-size: 10px;">9/12/21</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span class="span" style="color:lightskyblue;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                                                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+                                              </svg>
+                                        </span>
+                                    </span> 
+                                     whats the status?.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container-full fade" id="status">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/b.jpeg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">My status</h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px; font-style: italic;">Tap to add status
+                                    update.</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey; height:auto; background-color: white;">
+                                <h5 class="text-bold" style="margin-top: 15px; background-color: aliceblue;">Recent updates</h5>
+                                <img class="float-left rounded-circle pro" src="images/b.jpeg" alt="pro-pic" height="50px"
+                                    width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Hari
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Today, 10:33 PM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/e.jpeg" alt="pro-pic" height="50px"
+                                    width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Sanju
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Today, 9:30 PM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <h5 class="text-bold" style="margin-top: 15px; background-color: aliceblue;">Viewed updates</h5>
+                                <img class="float-left rounded-circle pro" src="images/g.jpeg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Atte
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Today, 9:15 AM</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/c.jpeg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Impana
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 05:00 AM</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="tab-pane container-full fade" id="calls">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/c.jpeg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h6 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Impana
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h6>
+                                <span class="span" style="color:green;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                      </svg>
+                                
+                                <span class="text-muted" style="font-style: italic;">2minutes agos</span>
+                            </span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/c.jpeg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h6 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Impana
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h6>
+                                <span class="span" style="color:green;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                      </svg>
+                                <span class="text-muted" style="font-style: italic;">5minutes ago</span>
+                                </span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid white;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/d.jpeg" alt="pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid white;">
+                                <h6 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Divya P N
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h6>
+                                <span class="span" style="color:green;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                      </svg>
+                                <span class="text-muted">55minutes ago</span>
+                                    </span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/d.jpeg" alt=pro-pic" height="50px"
+                                    width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h6 class="text-bold" style="margin-left: 70px;margin-top: 17px; font-style: italic;">Divya P N
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-phone" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h6>
+                                <span class="span" style="color:green;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                      </svg>
+                                <span class="text-muted">55minutes ago</span>
+                                    </span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                                style="border-bottom:1px solid lightgrey;height:auto;background-color: white;">
+                                <img class="float-left rounded-circle pro" src="images/d.jpeg" alt="pro-pic"
+                                    height="50px" width="50px"
+                                    style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Divya P N
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <i class="fa fa-video-camera" aria-hidden="true" style="color: green;"></i>
+                                    </span>
+                                </h5>
+                                <span class="span" style="color: red;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 13.5a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1H3.707L13.854 2.854a.5.5 0 0 0-.708-.708L3 12.293V7.5a.5.5 0 0 0-1 0v6z"/>
+                                      </svg>
+                                <span class="text-muted">Yesterday,12:00PM</span>
+                                    </span>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+                
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
